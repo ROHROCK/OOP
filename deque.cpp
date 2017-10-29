@@ -62,7 +62,7 @@ int main()
 		else
 		{
 		cout<<"\n\n Displying the element of DEQUE......\n";
-		for(p=dq.begin();p<dq.end();p++)
+		for(p=dq.begin();p<dq.end();p++) //custom loop to use the iterator to traverse the DQ using (P)
 		cout<<" "<<*p;
 		
 		}
